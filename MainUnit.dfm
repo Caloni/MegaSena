@@ -1,9 +1,9 @@
 object Form1: TForm1
-  Left = 0
-  Top = 0
+  Left = 694
+  Top = 332
+  Width = 459
+  Height = 325
   Caption = 'Form1'
-  ClientHeight = 286
-  ClientWidth = 426
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -28,7 +28,6 @@ object Form1: TForm1
   end
   object Database1: TDatabase
     AliasName = 'MegaSena'
-    Connected = True
     DatabaseName = 'MegaSena'
     LoginPrompt = False
     SessionName = 'Default'
@@ -36,7 +35,6 @@ object Form1: TForm1
     Top = 240
   end
   object Table1: TTable
-    Active = True
     DatabaseName = 'MegaSena'
     TableName = 'Resultados'
     Left = 40

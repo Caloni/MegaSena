@@ -11,6 +11,7 @@
 #include <DBGrids.hpp>
 #include <DBTables.hpp>
 #include <Grids.hpp>
+#include <Db.hpp>
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
